@@ -23,44 +23,50 @@
   </head>
 
   <body>
-    <header class="container header">
-      <a href="./index.html" class="webstudio"
-        ><span class="blue">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="above-links">
+    <header class="header">
+      <div class="container header-items">
+        <a href="./index.html" class="webstudio"
+          ><span class="blue">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="above-links">
+            <li>
+              <a href="./index.html" class="link">Agencja</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li>
+              <a href="./index.html" class="link">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="above-contact">
           <li>
-            <a href="./index.html" class="link">Agencja</a>
+            <a href="mailto:info@devstudio.com" class="contact"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="./portfolio.html" class="link">Portfolio</a>
-          </li>
-          <li>
-            <a href="./index.html" class="link">Kontakt</a>
+            <a href="tel:+48111111111" class="contact">+48 111 111 111</a>
           </li>
         </ul>
-      </nav>
-      <ul class="above-contact">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+48111111111" class="contact">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
+
     <main>
       <section class="main-title">
         <h1 class="title">
           EFEKTYWNE ROZWIĄZANIA <br />
-          WASZEGO BIZNESU
+          DLA WASZEGO BIZNESU
           <p>
             <button type="button" class="btn-studio">Zamów usługe</button>
           </p>
         </h1>
       </section>
-      <section>
-        <ul>
+
+      <section class="container">
+        <ul class="studio-lorem">
           <li>
             <h5 class="lorem">LOREM IPSUM</h5>
             <p class="paragraph">
@@ -95,9 +101,10 @@
           </li>
         </ul>
       </section>
-      <section>
+
+      <section class="container">
         <h2 class="what-we-do">Czym się zajmujemy</h2>
-        <ul>
+        <ul class="whatwedo-items">
           <li>
             <img
               src="images/image(1).jpg"
@@ -124,81 +131,84 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="team-title">Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
-              <img
-                src="images/osoba1.jpg"
-                width="270"
-                height="260"
-                alt="white man with beard in glasses and burgundy shirt"
-              />
-              <figcaption>
-                <h4 class="name">John Doe</h4>
-                <p class="job-name">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/osoba2.jpg"
-                width="270"
-                height="260"
-                alt="white blonde women in glasses and black jacket"
-              />
-              <figcaption>
-                <h4 class="name">John Doe</h4>
-                <p class="job-name">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/osoba3.jpg"
-                width="270"
-                height="260"
-                alt="white man in pale blue shirt"
-              />
-              <figcaption>
-                <h4 class="name">John Doe</h4>
-                <p class="job-name">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/osoba4.jpg"
-                width="270"
-                height="260"
-                alt="white man with beard in glasses and black tshirt"
-              />
-              <figcaption>
-                <h4 class="name">John Doe</h4>
-                <p class="job-name">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+
+      <section class="team-background">
+        <div class="container">
+          <h2 class="team-title">Nasz zespół</h2>
+          <ul class="team-item">
+            <li>
+              <figure class="photo-box">
+                <img
+                  src="images/osoba1.jpg"
+                  width="270"
+                  height="260"
+                  alt="white man with beard in glasses and burgundy shirt"
+                />
+                <figcaption>
+                  <h4 class="name">John Doe</h4>
+                  <p class="job-name prod-design">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="photo-box">
+                <img
+                  src="images/osoba2.jpg"
+                  width="270"
+                  height="260"
+                  alt="white blonde women in glasses and black jacket"
+                />
+                <figcaption>
+                  <h4 class="name">John Doe</h4>
+                  <p class="job-name front-devel">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="photo-box">
+                <img
+                  src="images/osoba3.jpg"
+                  width="270"
+                  height="260"
+                  alt="white man in pale blue shirt"
+                />
+                <figcaption>
+                  <h4 class="name">John Doe</h4>
+                  <p class="job-name marketing">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="photo-box">
+                <img
+                  src="images/osoba4.jpg"
+                  width="270"
+                  height="260"
+                  alt="white man with beard in glasses and black tshirt"
+                />
+                <figcaption>
+                  <h4 class="name">John Doe</h4>
+                  <p class="job-name ui-design">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <section>
-        <h3>
-          <a href="./index.html" class="webstudio2"
-            ><span class="blue">Web</span>Studio</a
-          >
-        </h3>
-        <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
-        <a href="mailto:info@devstudio.com" class="contact"
-          >info@devstudio.com</a
+    <footer class="below">
+      <section class="container">
+        <a href="./index.html" class="webstudio2"
+          ><span class="blue">Web</span>Studio</a
         >
-        <a href="tel:+48111111111" class="contact">+48 111 111 111</a>
+        <address class="address below-items">
+          m. Warszawa, Aleje Jerozolimskie 21
+          <a href="mailto:info@devstudio.com" class="contact"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+48111111111" class="contact">+48 111 111 111</a>
+        </address>
       </section>
     </footer>
   </body>
