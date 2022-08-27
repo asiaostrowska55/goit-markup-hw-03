@@ -32,6 +32,7 @@ body {
 .link {
   font-size: 14px;
   font-weight: 500;
+  color: #212121;
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
