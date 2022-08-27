@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
-  width: 1600px;
+  margin: 0;
 }
 .blue {
   color: #2196f3;
@@ -13,7 +13,7 @@ body {
   font-size: 26px;
   text-decoration: none;
   line-height: 1.19;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   padding: 24px 0 25px 15px;
 }
 .webstudio2 {
@@ -23,7 +23,7 @@ body {
   font-size: 26px;
   text-decoration: none;
   line-height: 1.19;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   display: block;
   padding-top: 60px;
   padding-left: 15px;
@@ -34,7 +34,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   line-height: 1.14;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .contact {
   font-weight: 500;
@@ -42,7 +42,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   line-height: 1.14;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .webstudio:hover,
 .webstudio:focus {
@@ -69,7 +69,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   line-height: 1.62;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   padding: 6px 22px;
 }
 
@@ -88,7 +88,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   line-height: 1.88;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
   margin: 0 auto;
@@ -101,20 +101,22 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
+  margin: 0;
 }
 .portfolio-descr {
   font-size: 16px;
   color: #757575;
   line-height: 1.88;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
+  margin: 0;
 }
 .address {
   font-size: 14px;
   color: #ffffff;
   font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .title {
   font-weight: 900;
@@ -131,7 +133,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   padding-bottom: 10px;
   margin: 0;
 }
@@ -139,7 +141,7 @@ body {
   font-size: 14px;
   color: #757575;
   line-height: 1.71;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   margin: 0;
 }
 .what-we-do,
@@ -147,7 +149,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .what-we-do {
   display: flex;
@@ -160,7 +162,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   padding: 30px 99px 10px;
   margin: 0;
 }
@@ -169,7 +171,8 @@ body {
   font-size: 16px;
   color: #757575;
   line-height: 1.18;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
+  justify-content: center;
 }
 
 *,
@@ -198,7 +201,7 @@ body {
 .above-contact {
   display: flex;
   list-style: none;
-  padding: 32px 27px 31px 391px;
+  padding: 32px 0 31px 364px;
   margin: 0;
   gap: 50px;
 }
@@ -240,7 +243,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding: 0 15px 94px;
+  padding: 0 15px 94px 0;
   margin: 0;
   gap: 30px;
 }
@@ -252,7 +255,7 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .prod-design {
-  padding: 10px 70px 30px;
+  padding: 10px 70px 30px 70px;
   margin: 0;
 }
 .front-devel {
@@ -295,12 +298,19 @@ body {
   flex-wrap: wrap;
   margin: 0px;
   list-style: none;
-  padding: 0 15px 94px;
+  padding-left: 0;
+  padding-bottom: 94px;
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .project-item {
   list-style: none;
   background-color: #ffffff;
-  border: 1px #eeeeee;
   border: 1px solid #eeeeee;
-  flex-basis: calc((100% - 60px) / 3);
+  width: 370px;
+}
+.figure {
+  margin: 0px;
+}
+.ficapction {
+  padding: 20.4px 24px;
 }
