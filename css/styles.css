@@ -125,10 +125,9 @@ body {
   color: #ffffff;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  width: 696px;
-  height: 120px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
+  padding: 200px 0 280px;
 }
 .lorem {
   font-weight: 700;
@@ -209,7 +208,6 @@ body {
 .main-title {
   display: flex;
   background-color: #2f303a;
-  padding: 200px 452px;
   justify-content: center;
   gap: 30px;
   height: 600px;
@@ -299,8 +297,7 @@ body {
   flex-wrap: wrap;
   margin: 0px;
   list-style: none;
-  padding-left: 0;
-  padding-bottom: 94px;
+  padding: 0 0 94px 15px;
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .project-item {
