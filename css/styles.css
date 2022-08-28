@@ -210,16 +210,14 @@ body {
   margin: 0;
   gap: 50px;
 }
-
 .studio-lorem {
   display: flex;
   list-style: none;
-  justify-content: center;
-  padding-bottom: 0;
+  /* justify-content: center; */
+  padding-left: 0px;
   margin: 0;
   gap: 30px;
 }
-
 .whatwedo-items {
   display: flex;
   list-style: none;
