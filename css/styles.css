@@ -53,7 +53,6 @@ body {
 .webstudio2:focus {
   color: #2196f3;
 }
-
 .link:hover,
 .link:focus {
   color: #2196f3;
@@ -73,7 +72,6 @@ body {
   letter-spacing: 0.03em;
   padding: 6px 22px;
 }
-
 .btn:hover {
   color: #ffffff;
   background-color: #2196f3;
@@ -94,6 +92,9 @@ body {
   height: 50px;
   margin: 0 auto;
   text-align: center;
+}
+.title-button {
+  padding: 30px 0 200px 0;
 }
 .btn-studio:hover {
   box-shadow: 1px 0px 2px 3px #8c8c8c;
@@ -157,7 +158,6 @@ body {
   justify-content: center;
   padding-bottom: 50px;
 }
-
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -166,7 +166,6 @@ body {
   padding: 30px 99px 10px;
   margin: 0;
 }
-
 .job-name {
   font-size: 16px;
   color: #757575;
@@ -215,7 +214,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding: 94px 15px;
+  padding-bottom: 0;
   margin: 0;
   gap: 30px;
 }
@@ -224,7 +223,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding: 0 15px 94px;
+  padding: 0 15px;
   margin: 0;
   gap: 30px;
 }
@@ -234,14 +233,14 @@ body {
 .team-title {
   display: flex;
   justify-content: center;
-  padding: 94px 0 50px;
+  padding-bottom: 50px;
   margin: 0;
 }
 .team-item {
   display: flex;
   list-style: none;
   justify-content: center;
-  padding: 0 15px 94px 0;
+  padding-left: 15px;
   margin: 0;
   gap: 30px;
 }
@@ -271,7 +270,6 @@ body {
 .footer {
   display: block;
   background-color: #2f303a;
-  margin: 0;
   height: 252px;
 }
 .footer-items {
@@ -287,8 +285,8 @@ body {
   list-style: none;
   justify-content: center;
   margin: 0;
-  padding: 94px 0 34px;
   gap: 8px;
+  margin-bottom: 51px;
 }
 .project-set {
   display: flex;
@@ -296,7 +294,7 @@ body {
   flex-wrap: wrap;
   margin: 0px;
   list-style: none;
-  padding: 0 0 94px 15px;
+  padding-left: 15px;
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .project-item {
@@ -310,4 +308,7 @@ body {
 }
 .ficapction {
   padding: 20.4px 24px;
+}
+section {
+  padding: 94px 0;
 }
